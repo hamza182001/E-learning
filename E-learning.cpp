@@ -6,9 +6,13 @@ class E-Learning{
 	string course;
 	public:
 	E-Learning();
-	public void set_id(int id){};
+	public void set_id(int id){
+		this->id=id;
+	};
 	public int get_id(){};
-	public void set_course(string course){};
+	public void set_course(string course){
+		this->course=course;
+	};
 	public string get_course(){};
 	
 	
