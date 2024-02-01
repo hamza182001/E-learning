@@ -7,9 +7,13 @@ class E-Learning{
 	public:
 	E-Learning();
 	public void set_id(int id){};
-	public int get_id(){};
+	public int get_id(){
+		return id;
+	};
 	public void set_course(string course){};
-	public string get_course(){};
+	public string get_course(){
+		return course;
+	};
 	
 	
 	
